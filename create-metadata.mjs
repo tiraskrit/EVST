@@ -25,7 +25,7 @@ async function createTokenMetadata(
     const tokenMetadata = {
         name: name,
         symbol: symbol,
-        uri: "https://raw.githubusercontent.com/your-repo/metadata.json", // You'll need to host this
+        uri: "https://raw.githubusercontent.com/tiraskrit/evst/main/metadata.json",
         sellerFeeBasisPoints: 0,
         creators: null,
         collection: null,
